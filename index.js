@@ -193,6 +193,8 @@ bot.on('message', message => {
         }
       });
       bot.on('message', message => {
+      let userdata = message.content.slice('').trim().split(' ');
+      let filter = m => m.author.id === message.author.id
       if (message.content.includes('!app.manual')){
         message.channel.send(`🤖 - Starting operation Manual Forward for ${message.author} bleep blop... `);
         message.channel.send('🤖 - Type one of the current roles: `freestyler,competitive,vfx,gfx,other`');
