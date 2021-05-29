@@ -1,21 +1,21 @@
 {
-  "name": "revive-discordbot",
+  "name": "freez-discordbot",
   "version": "1.0.0",
-  "description": "Revive-Discordbot",
+  "description": "FreeZ-Discordbot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RevolGR/revive-discordbot.git"
+    "url": "git+https://github.com/RevolGR/freez-discordbot.git"
   },
   "author": "Revol",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RevolGR/revive-discordbot/issues"
+    "url": "https://github.com/RevolGR/freez-discordbot/issues"
   },
-  "homepage": "https://github.com/RevolGR/revive-discordbot#readme",
+  "homepage": "https://github.com/RevolGR/freez-discordbot#readme",
   "dependencies": {
     "discord.js": "^12.2.0"
   }
