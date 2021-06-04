@@ -215,6 +215,7 @@ bot.on('message', message => {
                   channel.messages.fetch(`${userdata[1]}`).then(message => {
                           bot.channels.cache.get("833330436939579392").send(message.embeds)      
                   bot.channels.cache.get("833330436939579392").send(`Vote here`);
+                  bot.channels.cache.get("833330436939579392").send(`<@&399248168358772759> New freestyler application approved please vote : )`);
                   bot.channels.cache.get("833330436939579392").send(`=======================================================================================`);
                   });
                 } else if (message.content.toUpperCase().includes('competitive'.toUpperCase()) || message.content.toUpperCase().includes('comp'.toUpperCase())) {
@@ -225,6 +226,7 @@ bot.on('message', message => {
                     channel.messages.fetch(`${userdata[1]}`).then(message => {
                             bot.channels.cache.get("699255039293784176").send(message.embeds)      
                     bot.channels.cache.get("699255039293784176").send(`Vote here`);
+                    bot.channels.cache.get("699255039293784176").send(`<@&486970762356326401> New Comp application approved please vote : )`);
                     bot.channels.cache.get("699255039293784176").send(`=======================================================================================`);
                     });
                 } else if (message.content.toUpperCase().includes('editor'.toUpperCase()) || message.content.toUpperCase().includes('vfx'.toUpperCase())) {
@@ -235,6 +237,7 @@ bot.on('message', message => {
                     channel.messages.fetch(`${userdata[1]}`).then(message => {
                             bot.channels.cache.get("699255171565355078").send(message.embeds)      
                     bot.channels.cache.get("699255171565355078").send(`Vote here`);
+                    bot.channels.cache.get("699255171565355078").send(`<@&399248019842793482> New VFX application approved please vote : )`);
                     bot.channels.cache.get("699255171565355078").send(`=======================================================================================`);
                     });
                 } else if (message.content.toUpperCase().includes('designer'.toUpperCase()) || message.content.toUpperCase().includes('gfx'.toUpperCase())) {
@@ -245,6 +248,7 @@ bot.on('message', message => {
                     channel.messages.fetch(`${userdata[1]}`).then(message => {
                             bot.channels.cache.get("699255087889121301").send(message.embeds)      
                     bot.channels.cache.get("699255087889121301").send(`Vote here`);
+                    bot.channels.cache.get("699255087889121301").send(`<@&399247853496696833> New GFX application approved please vote : )`);
                     bot.channels.cache.get("699255087889121301").send(`=======================================================================================`);
                     });
                 } else if (message.content.toUpperCase().includes('stop'.toUpperCase()) || message.content.toUpperCase().includes('cancel'.toUpperCase())) {
