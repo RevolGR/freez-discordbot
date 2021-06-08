@@ -29,7 +29,7 @@ bot.on('message', message => {
         // Command handler, seen previously
         switch (command) {
                 case 'bot.forwardfreestyler': {
-                  message.channel.send('Hey Mr.Lead Freestyler\n'
+                  message.channel.send('Hey Mr. <@&485926538056040483> \n'
                   +'💠The BOT will now forward the recruit to applications.\n'
                                 + '⚠️Confirm with a thumb up or deny with a thumb down.');
       
@@ -56,7 +56,7 @@ bot.on('message', message => {
                         break;
                 }
                 case 'bot.forwardcompetitive': {
-                      message.channel.send('Hey Mr.Lead Competitive\n'
+                      message.channel.send('Hey Mr. <@&484404972163694608> \n'
                       +'💠The BOT will now forward the recruit to applications.\n'
                                     + '⚠️Confirm with a thumb up or deny with a thumb down.');
           
@@ -83,7 +83,7 @@ bot.on('message', message => {
                             break;
                     }   
                     case 'bot.forwardgfx': {
-                      message.channel.send('Hey Mr.Lead GFX\n'
+                      message.channel.send('Hey Mr.Lead  <@&824708741605752833> \n'
                       +'💠The BOT will now forward the recruit to applications.\n'
                                     + '⚠️Confirm with a thumb up or deny with a thumb down.');
           
@@ -109,7 +109,7 @@ bot.on('message', message => {
                             break;
                     }  
                     case 'bot.forwardvfx': {
-                      message.channel.send('Hey Mr.Lead VFX\n'
+                      message.channel.send('Hey Mr. <@&454302082833317888> \n'
                       +'💠The BOT will now forward the recruit to applications.\n'
                                     + '⚠️Confirm with a thumb up or deny with a thumb down.');
           
@@ -136,7 +136,7 @@ bot.on('message', message => {
                             break;
                     }
                     case 'bot.forwardnoflip': {
-                        message.channel.send('Hey Mr.Lead No-Flipper\n'
+                        message.channel.send('Hey Mr. <@&804053568868057164> \n'
                         +'💠The BOT will now forward the recruit to applications.\n'
                                       + '⚠️Confirm with a thumb up or deny with a thumb down.');
             
@@ -163,7 +163,7 @@ bot.on('message', message => {
                               break;
                       }
                     case 'bot.forwardother': {
-                      message.channel.send('Hey everyone\n'
+                      message.channel.send('Hey <@&399251116451168277> \n'
                       +'💠The BOT will now forward the recruit to applications.\n'
                                     + '⚠️Confirm with a thumb up or deny with a thumb down.');
           
