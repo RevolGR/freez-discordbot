@@ -39,7 +39,7 @@ bot.on('message', message => {
                         });
       
                         // First argument is a filter function
-                        message.awaitReactions((reaction,user) => user.id === "221029766235553792"/*Revol*/|| user.id === "239015490318499843"/*Petee*/|| user.id === "402058169146277891"/*Kron*/|| user.id === "293019630371471360"/*KalyN*/|| user.id === "277543688089894912"/*HB*/ || user.id === "239455912471953408"/*loov*/ || user.id === "483243079969669122"/*ae*/ || user.id === "729819962239352972"/*Dare*/ || user.id === "237618938421182464"/*Knosse*/ || user.id === "266636371005800449"/*Misc*/ || user.id === "290814916070211585"/*Realyy*/ || user.id === "349244484229267456" /*WOLF*/ && (reaction.emoji.name == '👍' || reaction.emoji.name == '👎'),
+                      message.awaitReactions((reaction,user) => user.id === "221029766235553792"/*Revol*/|| user.id === "237618938421182464"/*Knosse*/|| user.id === "402058169146277891"/*Kron*/|| user.id === "239015490318499843"/*Petee*/|| user.id === "266636371005800449"/*Misc*/ || user.id === "290814916070211585"/*Realyy*/ || user.id === "293019630371471360"/*Kalyn*/ || user.id === "277543688089894912"/*HB*/ || user.id === "729819962239352972"/*Dare*/ || user.id === "418446715734065152"/*Friz*/ || user.id === "483243079969669122"/*ae*/ || user.id === "349244484229267456" /*WOLF*/ && (reaction.emoji.name == '👍' || reaction.emoji.name == '👎'),
                                 { max: 1 }).then(collected => {
                                         if (collected.first().emoji.name == '👍') {
                                                 message.channel.send('➡️Redirecting...');
@@ -66,7 +66,7 @@ bot.on('message', message => {
                             });
                         
                             // First argument is a filter function
-                            message.awaitReactions((reaction,user) => user.id === "221029766235553792"/*Revol*/|| user.id === "239015490318499843"/*Petee*/|| user.id === "402058169146277891"/*Kron*/|| user.id === "293019630371471360"/*KalyN*/|| user.id === "277543688089894912"/*HB*/ || user.id === "239455912471953408"/*loov*/ || user.id === "483243079969669122"/*ae*/ || user.id === "729819962239352972"/*Dare*/ || user.id === "237618938421182464"/*Knosse*/ || user.id === "266636371005800449"/*Misc*/ || user.id === "290814916070211585"/*Realyy*/ || user.id === "349244484229267456" /*WOLF*/ && (reaction.emoji.name == '👍' || reaction.emoji.name == '👎'),
+                      message.awaitReactions((reaction,user) => user.id === "221029766235553792"/*Revol*/|| user.id === "237618938421182464"/*Knosse*/|| user.id === "402058169146277891"/*Kron*/|| user.id === "239015490318499843"/*Petee*/|| user.id === "266636371005800449"/*Misc*/ || user.id === "290814916070211585"/*Realyy*/ || user.id === "293019630371471360"/*Kalyn*/ || user.id === "277543688089894912"/*HB*/ || user.id === "729819962239352972"/*Dare*/ || user.id === "418446715734065152"/*Friz*/ || user.id === "483243079969669122"/*ae*/ || user.id === "349244484229267456" /*WOLF*/ && (reaction.emoji.name == '👍' || reaction.emoji.name == '👎'),
                                     { max: 1 }).then(collected => {
                                             if (collected.first().emoji.name == '👍') {
                                                     message.channel.send('➡️Redirecting...');
@@ -92,7 +92,7 @@ bot.on('message', message => {
                                     message.react('👎');
                             });
                             // First argument is a filter function
-                            message.awaitReactions((reaction,user) => user.id === "221029766235553792"/*Revol*/|| user.id === "239015490318499843"/*Petee*/|| user.id === "402058169146277891"/*Kron*/|| user.id === "293019630371471360"/*KalyN*/|| user.id === "277543688089894912"/*HB*/ || user.id === "239455912471953408"/*loov*/ || user.id === "483243079969669122"/*ae*/ || user.id === "729819962239352972"/*Dare*/ || user.id === "237618938421182464"/*Knosse*/ || user.id === "266636371005800449"/*Misc*/ || user.id === "290814916070211585"/*Realyy*/ || user.id === "349244484229267456" /*WOLF*/ && (reaction.emoji.name == '👍' || reaction.emoji.name == '👎'),
+                      message.awaitReactions((reaction,user) => user.id === "221029766235553792"/*Revol*/|| user.id === "237618938421182464"/*Knosse*/|| user.id === "402058169146277891"/*Kron*/|| user.id === "239015490318499843"/*Petee*/|| user.id === "266636371005800449"/*Misc*/ || user.id === "290814916070211585"/*Realyy*/ || user.id === "293019630371471360"/*Kalyn*/ || user.id === "277543688089894912"/*HB*/ || user.id === "729819962239352972"/*Dare*/ || user.id === "418446715734065152"/*Friz*/ || user.id === "483243079969669122"/*ae*/ || user.id === "349244484229267456" /*WOLF*/ && (reaction.emoji.name == '👍' || reaction.emoji.name == '👎'),
                                     { max: 1 }).then(collected => {
                                             if (collected.first().emoji.name == '👍') {
                                                     message.channel.send('➡️Redirecting...');
@@ -119,7 +119,7 @@ bot.on('message', message => {
                             });
   
                             // First argument is a filter function
-                            message.awaitReactions((reaction,user) => user.id === "221029766235553792"/*Revol*/|| user.id === "239015490318499843"/*Petee*/|| user.id === "402058169146277891"/*Kron*/|| user.id === "293019630371471360"/*KalyN*/|| user.id === "277543688089894912"/*HB*/ || user.id === "239455912471953408"/*loov*/ || user.id === "483243079969669122"/*ae*/ || user.id === "729819962239352972"/*Dare*/ || user.id === "237618938421182464"/*Knosse*/ || user.id === "266636371005800449"/*Misc*/ || user.id === "290814916070211585"/*Realyy*/ || user.id === "349244484229267456" /*WOLF*/ && (reaction.emoji.name == '👍' || reaction.emoji.name == '👎'),
+                      message.awaitReactions((reaction,user) => user.id === "221029766235553792"/*Revol*/|| user.id === "237618938421182464"/*Knosse*/|| user.id === "402058169146277891"/*Kron*/|| user.id === "239015490318499843"/*Petee*/|| user.id === "266636371005800449"/*Misc*/ || user.id === "290814916070211585"/*Realyy*/ || user.id === "293019630371471360"/*Kalyn*/ || user.id === "277543688089894912"/*HB*/ || user.id === "729819962239352972"/*Dare*/ || user.id === "418446715734065152"/*Friz*/ || user.id === "483243079969669122"/*ae*/ || user.id === "349244484229267456" /*WOLF*/ && (reaction.emoji.name == '👍' || reaction.emoji.name == '👎'),
                                     { max: 1 }).then(collected => {
                                             if (collected.first().emoji.name == '👍') {
                                                     message.channel.send('➡️Redirecting...');
@@ -146,7 +146,7 @@ bot.on('message', message => {
                               });
     
                               // First argument is a filter function
-                              message.awaitReactions((reaction,user) => user.id === "221029766235553792"/*Revol*/|| user.id === "239015490318499843"/*Petee*/|| user.id === "402058169146277891"/*Kron*/|| user.id === "293019630371471360"/*KalyN*/|| user.id === "277543688089894912"/*HB*/ || user.id === "239455912471953408"/*loov*/ || user.id === "483243079969669122"/*ae*/ || user.id === "729819962239352972"/*Dare*/ || user.id === "237618938421182464"/*Knosse*/ || user.id === "266636371005800449"/*Misc*/ || user.id === "290814916070211585"/*Realyy*/ || user.id === "349244484229267456" /*WOLF*/ && (reaction.emoji.name == '👍' || reaction.emoji.name == '👎'),
+                      message.awaitReactions((reaction,user) => user.id === "221029766235553792"/*Revol*/|| user.id === "237618938421182464"/*Knosse*/|| user.id === "402058169146277891"/*Kron*/|| user.id === "239015490318499843"/*Petee*/|| user.id === "266636371005800449"/*Misc*/ || user.id === "290814916070211585"/*Realyy*/ || user.id === "293019630371471360"/*Kalyn*/ || user.id === "277543688089894912"/*HB*/ || user.id === "729819962239352972"/*Dare*/ || user.id === "418446715734065152"/*Friz*/ || user.id === "483243079969669122"/*ae*/ || user.id === "349244484229267456" /*WOLF*/ && (reaction.emoji.name == '👍' || reaction.emoji.name == '👎'),
                                       { max: 1 }).then(collected => {
                                               if (collected.first().emoji.name == '👍') {
                                                       message.channel.send('➡️Redirecting...');
@@ -174,7 +174,7 @@ bot.on('message', message => {
   
           
                             // First argument is a filter function
-                            message.awaitReactions((reaction,user) => user.id === "221029766235553792"/*Revol*/|| user.id === "239015490318499843"/*Petee*/|| user.id === "402058169146277891"/*Kron*/|| user.id === "293019630371471360"/*KalyN*/|| user.id === "277543688089894912"/*HB*/ || user.id === "239455912471953408"/*loov*/ || user.id === "483243079969669122"/*ae*/ || user.id === "729819962239352972"/*Dare*/ || user.id === "237618938421182464"/*Knosse*/ || user.id === "266636371005800449"/*Misc*/ || user.id === "290814916070211585"/*Realyy*/ || user.id === "349244484229267456" /*WOLF*/ && (reaction.emoji.name == '👍' || reaction.emoji.name == '👎'),
+                      message.awaitReactions((reaction,user) => user.id === "221029766235553792"/*Revol*/|| user.id === "237618938421182464"/*Knosse*/|| user.id === "402058169146277891"/*Kron*/|| user.id === "239015490318499843"/*Petee*/|| user.id === "266636371005800449"/*Misc*/ || user.id === "290814916070211585"/*Realyy*/ || user.id === "293019630371471360"/*Kalyn*/ || user.id === "277543688089894912"/*HB*/ || user.id === "729819962239352972"/*Dare*/ || user.id === "418446715734065152"/*Friz*/ || user.id === "483243079969669122"/*ae*/ || user.id === "349244484229267456" /*WOLF*/ && (reaction.emoji.name == '👍' || reaction.emoji.name == '👎'),
                                     { max: 1 }).then(collected => {
                                             if (collected.first().emoji.name == '👍') {
                                                     message.channel.send('➡️Redirecting...');
