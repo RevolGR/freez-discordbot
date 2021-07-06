@@ -43,10 +43,10 @@ bot.on('message', message => {
                                 { max: 1 }).then(collected => {
                                         if (collected.first().emoji.name == '👍') {
                                                 message.channel.send('➡️Redirecting...');
-                                                bot.channels.cache.get("833330436939579392").send(`New Freestyler application approved by an administrator!`);                                         
-                                                bot.channels.cache.get("833330436939579392").send(message.embeds);
-                                                bot.channels.cache.get("833330436939579392").send(`Vote here`);
-                                                bot.channels.cache.get("833330436939579392").send(`<@&399248168358772759> New freestyler application approved please vote : )`);
+                                                bot.channels.cache.get("699200147435028515").send(`New Freestyler application approved by an administrator!`);                                         
+                                                bot.channels.cache.get("699200147435028515").send(message.embeds);
+                                                bot.channels.cache.get("699200147435028515").send(`Vote here`);
+                                                bot.channels.cache.get("699200147435028515").send(`<@&399248168358772759> New freestyler application approved please vote : )`);
                                         } else
                                                 message.channel.send('❌Redirection canceled.');
                                 }).catch(() => {
@@ -211,12 +211,12 @@ bot.on('message', message => {
                   message.channel.send(`➡️Redirecting...`);
                   message.channel.send(`🤖 - Operation send Manual Forward to Freestylers, Completed!`);
                   let channel = bot.channels.cache.get("839916572260958258")
-                  bot.channels.cache.get("833330436939579392").send(`New freestyler application approved by an administrator!`);
+                  bot.channels.cache.get("699200147435028515").send(`New freestyler application approved by an administrator!`);
                   channel.messages.fetch(`${userdata[1]}`).then(message => {
-                          bot.channels.cache.get("833330436939579392").send(message.embeds)      
-                  bot.channels.cache.get("833330436939579392").send(`Vote here`);
-                  bot.channels.cache.get("833330436939579392").send(`<@&399248168358772759> New freestyler application approved please vote : )`);
-                  bot.channels.cache.get("833330436939579392").send(`=======================================================================================`);
+                          bot.channels.cache.get("699200147435028515").send(message.embeds)      
+                  bot.channels.cache.get("699200147435028515").send(`Vote here`);
+                  bot.channels.cache.get("699200147435028515").send(`<@&399248168358772759> New freestyler application approved please vote : )`);
+                  bot.channels.cache.get("699200147435028515").send(`=======================================================================================`);
                   });
                 } else if (message.content.toUpperCase().includes('competitive'.toUpperCase()) || message.content.toUpperCase().includes('comp'.toUpperCase())) {
                     message.channel.send(`➡️Redirecting...`);
