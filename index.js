@@ -197,7 +197,7 @@ bot.on('message', message => {
       let filter = m => m.author.id === message.author.id
       if (message.content.includes('!app.manual')){
         message.channel.send(`🤖 - Starting operation Manual Forward for ${message.author} bleep blop... `);
-        message.channel.send('🤖 - Type one of the current roles: `freestyler,competitive,vfx,gfx,other`');
+        message.channel.send('🤖 - Type one of the current roles: `freestyler,noflip,competitive,vfx,gfx,other`');
         message.channel.send('⚠️ - Make sure you typed the command correctly should be command + id');
         message.channel.send('⏰ You have 3 minutes, else type `stop` to terminate the Operation.').then(() => {
             message.channel.awaitMessages(filter, {
@@ -218,7 +218,7 @@ bot.on('message', message => {
                   bot.channels.cache.get("699200147435028515").send(`<@&399248168358772759> New freestyler application approved please vote : )`);
                   bot.channels.cache.get("699200147435028515").send(`=======================================================================================`);
                   });
-                } else if (message.content.toUpperCase().includes('noflip'.toUpperCase()) || message.content.toUpperCase().includes('comp'.toUpperCase())) {
+                } else if (message.content.toUpperCase().includes('noflip'.toUpperCase()) || message.content.toUpperCase().includes('noflip'.toUpperCase())) {
                     message.channel.send(`➡️Redirecting...`);
                     message.channel.send(`🤖 - Operation send Manual Forward to Competitive, Completed!`);
                     let channel = bot.channels.cache.get("839916572260958258")
